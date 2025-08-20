@@ -1,0 +1,30 @@
+dist/
+
+node_modules
+# Optional npm cache directory
+.npm
+# Optional eslint cache directory
+.eslintcache
+# Optional stylelint cache directory
+.stylelintcache
+# Optional cache directory for prettier
+.prettiercache
+# Optional cache directory for rollup
+.rollup.cache
+# Optional cache directory for webpack
+.webpack-cache
+# Optional cache directory for babel
+.babel-cache
+# Optional cache directory for jest
+.jest
+# Optional cache directory for vitest
+.vitest
+# Optional cache directory for cypress
+.cypress/cache
+# Optional cache directory for storybook
+.storybook/cache
+# Optional cache directory for playwright
+.playwright/cache
+
+.next/
+
