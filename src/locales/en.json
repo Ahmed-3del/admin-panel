@@ -30,6 +30,7 @@
     "clients": "Clients",
     "services": "Services",
     "about": "About Us",
+    "careers": "Careers",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy",
     "testimonials": "Testimonials",
@@ -38,7 +39,8 @@
     "subscriptions": "Subscriptions",
     "settings": "Settings",
     "profile": "Profile",
-    "logout": "Logout"
+    "logout": "Logout",
+    "home-page": "Home Page"
   },
   "overview": {
     "title": "Overview",

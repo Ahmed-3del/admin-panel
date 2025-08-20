@@ -16,10 +16,18 @@ type Client = {
 }
 
 export default function ClientsPage() {
-    const { clients, isLoading, refetch } = useClients()
+    const { clients, isLoading, refetch,error } = useClients()
     const { t } = useTranslation()
 
     const { openModal } = useModal()
+   
+    if (error) {
+        return (
+            <div className="text-red-500">
+                {t("error")}
+            </div>
+        )
+    }
 
     const columns: Column<Client>[] = [
         {

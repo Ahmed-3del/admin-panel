@@ -50,15 +50,9 @@ export const sidebarItems: NavGroup[] = [
     label: "Pages",
     items: [
       {
-        title: "projects",
-        url: "/dashboard/projects",
+        title: "careers",
+        url: "/dashboard/careers",
         icon: NotebookPenIcon,
-        comingSoon: false,
-      },
-      {
-        title: "clients",
-        url: "/dashboard/clients",
-        icon: Users,
         comingSoon: false,
       },
       {
@@ -74,24 +68,6 @@ export const sidebarItems: NavGroup[] = [
         comingSoon: false,
       },
       {
-        title: "terms",
-        url: "/dashboard/terms",
-        icon: ReceiptText,
-        comingSoon: false,
-      },
-      {
-        title: "privacy",
-        url: "/dashboard/privacy",
-        icon: GlobeLock,
-        comingSoon: false,
-      },
-      {
-        title: "testimonials",
-        url: "/dashboard/testimonials",
-        icon: Star,
-        comingSoon: false,
-      },
-      {
         title: "blogs",
         url: "/dashboard/blogs",
         icon: Newspaper,
@@ -103,12 +79,24 @@ export const sidebarItems: NavGroup[] = [
         icon: Contact,
         comingSoon: false,
       },
+      // {
+      //   title: "terms",
+      //   url: "/dashboard/terms",
+      //   icon: ReceiptText,
+      //   comingSoon: false,
+      // },
       {
-        title: "subscriptions",
-        url: "/dashboard/subscription",
-        icon: MailCheck,
+        title: "home-page",
+        url: "/dashboard/home-page",
+        icon: Server,
         comingSoon: false,
       },
+      // {
+      //   title: "testimonials",
+      //   url: "/dashboard/testimonials",
+      //   icon: Star,
+      //   comingSoon: false,
+      // },
     ],
   },
 ];

@@ -38,7 +38,9 @@
     "subscriptions": "الاشتراكات",
     "settings": "الإعدادات",
     "profile": "الملف الشخصي",
-    "logout": "تسجيل الخروج"
+    "logout": "تسجيل الخروج",
+    "home-page": "الصفحة الرئيسية",
+    "careers": "الوظائف"
   },
   "overview": {
     "title": "نظرة عامة",
